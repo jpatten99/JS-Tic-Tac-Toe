@@ -1,0 +1,78 @@
+body{
+  width: 100vw;
+  height: 100vh;
+  background-color: red;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-container{
+  background-color: white;
+  height: 306px;
+  width: 306px;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square{
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  height: 100px;
+  width: 100px;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#restartbutton{
+  margin-top: 15px;
+  background-image: linear-gradient(#42A1EC, #0070C9);
+  border: 1px solid #0077CC;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #FFFFFF; 
+  cursor: pointer;
+  direction: ltr; 
+  display: block; 
+  font-family: "SF Pro Text","SF Pro Icons","AOS Icons","Helvetica Neue",Helvetica,Arial,sans-serif; 
+  font-size: 17px; 
+  font-weight: 400; 
+  letter-spacing: -.022em; 
+  line-height: 1.47059; 
+  min-width: 30px; 
+  overflow: visible; 
+  padding: 4px 15px; 
+  text-align: center; 
+  vertical-align: baseline; 
+  user-select: none; -webkit-user-select: none; 
+  touch-action: manipulation; 
+  white-space: nowrap;
+}
+
+.X{
+  background-color: yellow;
+  color: blue;
+}
+
+.O{
+  background-color: blue;
+  color: yellow;
+}
+
+form{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+}
